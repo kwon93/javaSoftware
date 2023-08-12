@@ -16,6 +16,9 @@ import java.util.List;
  * 02-02-2023, -500, Tesco
  *
  * 중간에 적혀있는 금액만 계산해 총 수입과 총 지출을을 구하는 프로그램
+ *
+ * 1.0 ver
+ * 하나의 클래스안에 여러가지 기능과 메서드를 다 구현한 버전
  */
 
 public class BankTransactionAnalyzerSimple {

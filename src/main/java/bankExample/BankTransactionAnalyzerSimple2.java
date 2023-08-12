@@ -8,6 +8,11 @@ import java.time.Month;
 import java.util.ArrayList;
 import java.util.List;
 
+
+/**
+ * 2.0 ver
+ * parding하는 기능을 따로 클래스로 구현해 분리해놓은 ver
+ */
 public class BankTransactionAnalyzerSimple2 {
     private static final String RESOURCES = "src/main/resources/";
 
