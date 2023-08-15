@@ -27,7 +27,7 @@ public class BankTransactionAnalyzerSimple3 {
         final List<String> lines = Files.readAllLines(path); //파일의 행목록을 반환한다.
 
         final List<BankTransaction> bankTransactions
-                = bankStatementParser.parseLinesFromCSV(lines);
+                = bankStatementParser.parseLinesFrom(lines);
         final BankStatementProcessor bankStatementProcessor
                 = new BankStatementProcessor(bankTransactions);
 

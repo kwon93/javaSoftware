@@ -24,7 +24,7 @@ public class BankTransactionAnalyzerSimple2 {
         final List<String> lines = Files.readAllLines(path); //파일의 행목록을 반환한다.
 
         final List<BankTransaction> bankTransactions
-                = bankStatementParser.parseLinesFromCSV(lines);
+                = bankStatementParser.parseLinesFrom(lines);
 
         System.out.println("The total for all Transactions In January is "+ calculateTotalAmount(bankTransactions));
         System.out.println("The total for all Transactions In January is "+ selectInMonth(bankTransactions, Month.JANUARY));
