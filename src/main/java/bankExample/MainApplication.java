@@ -12,9 +12,7 @@ public class MainApplication {
 
         final BankStatementParser bankStatementParser
                 = new BankStatementCSVParser();
-
-
-
+        
         bankAnalyzer.analyze(args[0],bankStatementParser);
     }
 }

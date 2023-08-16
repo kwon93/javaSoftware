@@ -13,7 +13,6 @@ class BankStatementCSVParserTest {
 
     private final BankStatementParser statementParser = new BankStatementCSVParser();
 
-
     @Test
     @DisplayName("ShouldParseOneCorrectLine")
     void test1() throws Exception{
@@ -30,6 +29,9 @@ class BankStatementCSVParserTest {
         assertEquals(expected.getAmount(), result.getAmount());
         assertEquals(expected.getDescription(), result.getDescription());
     }
+
+
+
 
 
 
